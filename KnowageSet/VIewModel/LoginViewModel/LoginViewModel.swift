@@ -72,10 +72,22 @@ class LoginViewModel:NSObject {
     }
     
     func switchDashboardController() {
-        let rootController =  CustomTabbarController()
+        let leftMenuVC: SliderMenuVC = mainStoryboard.instantiateViewController(withIdentifier: "SliderMenuVC") as! SliderMenuVC
+        let centerVC = (dashboardStoryboard.instantiateViewController(withIdentifier: "MainNavigation") as! UINavigationController)
+        let rootController = FAPanelController ()
+        rootController.configs.rightPanelWidth = 808
+        rootController.configs.bounceOnRightPanelOpen = false
+       NavigationHelper.helper.navController =  centerVC
+     _ = rootController.center(centerVC).left(leftMenuVC)
+        UIApplication.shared.windows.first!.rootViewController =  rootController
+        
+   /*    old code
+    let tabBarController =  CustomTabbarController()
    NavigationHelper.helper.navController = (dashboardStoryboard.instantiateViewController(withIdentifier: "MainNavigation") as! UINavigationController)
-     //   NavigationHelper.helper.navController.viewControllers = [rootController]
-        UIApplication.shared.windows.first!.rootViewController =  rootController //NavigationHelper.helper.navController
+     //   NavigationHelper.helper.navController.viewControllers = [tabBarController]
+        UIApplication.shared.windows.first!.rootViewController =  tabBarController //NavigationHelper.helper.navController
+  
+    */
     }
     
 }

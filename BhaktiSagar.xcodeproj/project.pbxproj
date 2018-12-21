@@ -39,6 +39,19 @@
 		4362DD0A21A6C7A9002FEFC5 /* String+KnowageSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4362DD0921A6C7A9002FEFC5 /* String+KnowageSet.swift */; };
 		4362DD0D21A6C81D002FEFC5 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4362DD0C21A6C81D002FEFC5 /* LoginViewModel.swift */; };
 		4362DD0F21A6D108002FEFC5 /* Applications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4362DD0E21A6D108002FEFC5 /* Applications.swift */; };
+		4364207721CCC63000B1CEAB /* UIView+FAPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364206E21CCC62900B1CEAB /* UIView+FAPanel.swift */; };
+		4364207821CCC63000B1CEAB /* FAPanel+InterfaceRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364206F21CCC62A00B1CEAB /* FAPanel+InterfaceRotation.swift */; };
+		4364207921CCC63000B1CEAB /* FAPanelConfigurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364207021CCC62A00B1CEAB /* FAPanelConfigurations.swift */; };
+		4364207A21CCC63000B1CEAB /* FAPanel+Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364207121CCC62B00B1CEAB /* FAPanel+Gestures.swift */; };
+		4364207B21CCC63000B1CEAB /* UIViewController+FAPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364207221CCC62B00B1CEAB /* UIViewController+FAPanel.swift */; };
+		4364207C21CCC63000B1CEAB /* FAPanel+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364207321CCC62C00B1CEAB /* FAPanel+Animations.swift */; };
+		4364207D21CCC63000B1CEAB /* Collection+FAPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364207421CCC62D00B1CEAB /* Collection+FAPanel.swift */; };
+		4364207E21CCC63000B1CEAB /* FAPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364207521CCC62E00B1CEAB /* FAPanel.swift */; };
+		4364207F21CCC63000B1CEAB /* UIImage+FAPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364207621CCC62F00B1CEAB /* UIImage+FAPanel.swift */; };
+		4364208521CCC8C800B1CEAB /* SliderMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364208421CCC8C800B1CEAB /* SliderMenuCell.swift */; };
+		4364208721CCCC5200B1CEAB /* SliderMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364208621CCCC5200B1CEAB /* SliderMenuVC.swift */; };
+		4364208A21CCCD7200B1CEAB /* SliderMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364208921CCCD7200B1CEAB /* SliderMenuViewModel.swift */; };
+		4364208C21CCE19C00B1CEAB /* FAPanel+KVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364208B21CCE19B00B1CEAB /* FAPanel+KVO.swift */; };
 		43724F2D21B1251A0008CFD7 /* SizeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43724F2C21B1251A0008CFD7 /* SizeClass.swift */; };
 		4394965621AFB47700A7D553 /* banner2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4394965521AFB47700A7D553 /* banner2.jpeg */; };
 		4394965A21AFBC9B00A7D553 /* SeeMoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4394965921AFBC9B00A7D553 /* SeeMoreCell.xib */; };
@@ -161,6 +174,19 @@
 		4362DD0921A6C7A9002FEFC5 /* String+KnowageSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+KnowageSet.swift"; sourceTree = "<group>"; };
 		4362DD0C21A6C81D002FEFC5 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		4362DD0E21A6D108002FEFC5 /* Applications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Applications.swift; sourceTree = "<group>"; };
+		4364206E21CCC62900B1CEAB /* UIView+FAPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+FAPanel.swift"; sourceTree = "<group>"; };
+		4364206F21CCC62A00B1CEAB /* FAPanel+InterfaceRotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FAPanel+InterfaceRotation.swift"; sourceTree = "<group>"; };
+		4364207021CCC62A00B1CEAB /* FAPanelConfigurations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAPanelConfigurations.swift; sourceTree = "<group>"; };
+		4364207121CCC62B00B1CEAB /* FAPanel+Gestures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FAPanel+Gestures.swift"; sourceTree = "<group>"; };
+		4364207221CCC62B00B1CEAB /* UIViewController+FAPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+FAPanel.swift"; sourceTree = "<group>"; };
+		4364207321CCC62C00B1CEAB /* FAPanel+Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FAPanel+Animations.swift"; sourceTree = "<group>"; };
+		4364207421CCC62D00B1CEAB /* Collection+FAPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+FAPanel.swift"; sourceTree = "<group>"; };
+		4364207521CCC62E00B1CEAB /* FAPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAPanel.swift; sourceTree = "<group>"; };
+		4364207621CCC62F00B1CEAB /* UIImage+FAPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+FAPanel.swift"; sourceTree = "<group>"; };
+		4364208421CCC8C800B1CEAB /* SliderMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderMenuCell.swift; sourceTree = "<group>"; };
+		4364208621CCCC5200B1CEAB /* SliderMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderMenuVC.swift; sourceTree = "<group>"; };
+		4364208921CCCD7200B1CEAB /* SliderMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderMenuViewModel.swift; sourceTree = "<group>"; };
+		4364208B21CCE19B00B1CEAB /* FAPanel+KVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FAPanel+KVO.swift"; sourceTree = "<group>"; };
 		43724F2C21B1251A0008CFD7 /* SizeClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeClass.swift; sourceTree = "<group>"; };
 		4394965521AFB47700A7D553 /* banner2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner2.jpeg; sourceTree = "<group>"; };
 		4394965921AFBC9B00A7D553 /* SeeMoreCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeeMoreCell.xib; sourceTree = "<group>"; };
@@ -319,6 +345,7 @@
 		4362537921A5393E006C136F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4364208021CCC82900B1CEAB /* SliderMenu */,
 				43C1F8F121ABD163004956BB /* CustomTabbar */,
 				43DDB01421A8437C009489AB /* Home */,
 				43DDB01321A8435F009489AB /* SkillsList */,
@@ -333,6 +360,7 @@
 		4362537A21A53961006C136F /* VIewModel */ = {
 			isa = PBXGroup;
 			children = (
+				4364208821CCCD4B00B1CEAB /* SliderMenuViewModel */,
 				43E09F4F21AEA3D000321C75 /* HomeViewModel */,
 				4362DD0B21A6C808002FEFC5 /* LoginViewModel */,
 			);
@@ -484,6 +512,16 @@
 		4362538821A53B81006C136F /* MenuClass */ = {
 			isa = PBXGroup;
 			children = (
+				4364208B21CCE19B00B1CEAB /* FAPanel+KVO.swift */,
+				4364207421CCC62D00B1CEAB /* Collection+FAPanel.swift */,
+				4364207521CCC62E00B1CEAB /* FAPanel.swift */,
+				4364207321CCC62C00B1CEAB /* FAPanel+Animations.swift */,
+				4364207121CCC62B00B1CEAB /* FAPanel+Gestures.swift */,
+				4364206F21CCC62A00B1CEAB /* FAPanel+InterfaceRotation.swift */,
+				4364207021CCC62A00B1CEAB /* FAPanelConfigurations.swift */,
+				4364207621CCC62F00B1CEAB /* UIImage+FAPanel.swift */,
+				4364206E21CCC62900B1CEAB /* UIView+FAPanel.swift */,
+				4364207221CCC62B00B1CEAB /* UIViewController+FAPanel.swift */,
 			);
 			path = MenuClass;
 			sourceTree = "<group>";
@@ -567,6 +605,31 @@
 				4362DD0C21A6C81D002FEFC5 /* LoginViewModel.swift */,
 			);
 			path = LoginViewModel;
+			sourceTree = "<group>";
+		};
+		4364208021CCC82900B1CEAB /* SliderMenu */ = {
+			isa = PBXGroup;
+			children = (
+				4364208321CCC89500B1CEAB /* Cell */,
+				4364208621CCCC5200B1CEAB /* SliderMenuVC.swift */,
+			);
+			path = SliderMenu;
+			sourceTree = "<group>";
+		};
+		4364208321CCC89500B1CEAB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4364208421CCC8C800B1CEAB /* SliderMenuCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		4364208821CCCD4B00B1CEAB /* SliderMenuViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4364208921CCCD7200B1CEAB /* SliderMenuViewModel.swift */,
+			);
+			path = SliderMenuViewModel;
 			sourceTree = "<group>";
 		};
 		43724F2B21B124FE0008CFD7 /* SizeClass */ = {
@@ -939,8 +1002,10 @@
 				4362534B21A53836006C136F /* AppDelegate.swift in Sources */,
 				43DDB01621A84408009489AB /* AccountVC.swift in Sources */,
 				43E09F5921AEB23F00321C75 /* HeaderViewHome.swift in Sources */,
+				4364208521CCC8C800B1CEAB /* SliderMenuCell.swift in Sources */,
 				43FC0FD321A5809F00C2D136 /* UITextField+KnowageSet.swift in Sources */,
 				4362DCFF21A69093002FEFC5 /* RestApiManager.swift in Sources */,
+				4364207D21CCC63000B1CEAB /* Collection+FAPanel.swift in Sources */,
 				43DDB01A21A84429009489AB /* MyCoursesVC.swift in Sources */,
 				4394966221AFCEEC00A7D553 /* CourceCollectionviewCell.swift in Sources */,
 				43C1F8F821ABE0DF004956BB /* BaseCollectionViewCell.swift in Sources */,
@@ -950,17 +1015,24 @@
 				43C1F8F321ABD181004956BB /* CustomTabbarController.swift in Sources */,
 				43E09F5D21AED48900321C75 /* TagsCell.swift in Sources */,
 				43DDAFF621A82D58009489AB /* UIController.swift in Sources */,
+				4364207721CCC63000B1CEAB /* UIView+FAPanel.swift in Sources */,
+				4364207A21CCC63000B1CEAB /* FAPanel+Gestures.swift in Sources */,
+				4364208721CCCC5200B1CEAB /* SliderMenuVC.swift in Sources */,
 				4362DD0F21A6D108002FEFC5 /* Applications.swift in Sources */,
 				4362DD0A21A6C7A9002FEFC5 /* String+KnowageSet.swift in Sources */,
 				4362DD0121A691E0002FEFC5 /* QueryService.swift in Sources */,
 				43E09F3E21AE778700321C75 /* AdsenseCell.swift in Sources */,
+				4364207E21CCC63000B1CEAB /* FAPanel.swift in Sources */,
 				4362DD0321A69289002FEFC5 /* Constants.swift in Sources */,
+				4364207921CCC63000B1CEAB /* FAPanelConfigurations.swift in Sources */,
 				43DDB00021A82F86009489AB /* BaseTableViewCell.swift in Sources */,
 				43DDAFC321A7D341009489AB /* Global.swift in Sources */,
 				43C1F90D21AC1467004956BB /* UIStoryboard+KnowageSet.swift in Sources */,
 				43DDAFF821A82DB0009489AB /* BaseTableViewController.swift in Sources */,
+				4364207C21CCC63000B1CEAB /* FAPanel+Animations.swift in Sources */,
 				43FC0FDC21A59AE200C2D136 /* OtpVerifyProtocol.swift in Sources */,
 				43DDB01821A8441A009489AB /* WishlistVC.swift in Sources */,
+				4364208A21CCCD7200B1CEAB /* SliderMenuViewModel.swift in Sources */,
 				43DDAFFA21A82E6B009489AB /* NavigationHelper.swift in Sources */,
 				43C1F90B21AC0FF7004956BB /* UIViewController+KnowageSet.swift in Sources */,
 				43C1F8F621ABDF8B004956BB /* JAPageControl.swift in Sources */,
@@ -971,9 +1043,13 @@
 				4362539F21A541CF006C136F /* BaseViewController.swift in Sources */,
 				43DDB01E21A84446009489AB /* HomeVC.swift in Sources */,
 				43DDAFF521A82D58009489AB /* JANagivationStyle.swift in Sources */,
+				4364207F21CCC63000B1CEAB /* UIImage+FAPanel.swift in Sources */,
 				43DDB01C21A8443A009489AB /* SkillsListVC.swift in Sources */,
 				43E09F5121AEA3E500321C75 /* HomeViewModel.swift in Sources */,
+				4364207821CCC63000B1CEAB /* FAPanel+InterfaceRotation.swift in Sources */,
+				4364208C21CCE19C00B1CEAB /* FAPanel+KVO.swift in Sources */,
 				4362DCFD21A6890C002FEFC5 /* Connectivity.swift in Sources */,
+				4364207B21CCC63000B1CEAB /* UIViewController+FAPanel.swift in Sources */,
 				43DDAFC721A7FE38009489AB /* Loader.swift in Sources */,
 				43E09F4221AE794400321C75 /* UITableView+KnowageSet.swift in Sources */,
 				4362DD0821A6A966002FEFC5 /* OTPModel.swift in Sources */,

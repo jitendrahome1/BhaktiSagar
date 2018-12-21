@@ -22,3 +22,8 @@ let screenSize      = UIScreen.main.bounds
 let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
 let dashboardStoryboard: UIStoryboard = UIStoryboard(name: "Dashboard", bundle: nil)
 
+
+// COLOR
+
+let NAVIGATION_BAR_COLOR = "DD3D2B"
+let NAVIGATION_TINT_COLOR:UIColor = .white

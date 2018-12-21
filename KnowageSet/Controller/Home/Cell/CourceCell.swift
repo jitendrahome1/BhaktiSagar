@@ -23,7 +23,6 @@ class CourceCell: BaseTableViewCell, UICollectionViewDelegate, UICollectionViewD
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         self.cellSize =  CellSize()
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        
         self.backgroundColor = .clear
         self.selectionStyle = .none
         self.configurationBGView()
@@ -50,7 +49,7 @@ class CourceCell: BaseTableViewCell, UICollectionViewDelegate, UICollectionViewD
     lazy var aCollectionView:UICollectionView =  {
         let flowLayout = UICollectionViewFlowLayout()
         let collectionView =  UICollectionView(frame: .zero, collectionViewLayout: flowLayout)
-        flowLayout.sectionInset = UIEdgeInsets(top: 0, left: 16, bottom:0, right: 16)
+        flowLayout.sectionInset = UIEdgeInsets(top: 0, left: 8, bottom:0, right: 8)
         collectionView.backgroundColor = UIColor.clear
         flowLayout.scrollDirection = .horizontal
         collectionView.isScrollEnabled =  true

@@ -14,12 +14,20 @@ class HomeVC: BaseViewController, UITableViewDelegate, UITableViewDataSource {
     private let model = HomeViewModel()
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.setBarButton()
         self.registerCustomCell()
     }
     override func initialSetup() {
         self.tblHome.backgroundColor = .clear
-        self.setTitle(title: HOMEVC_TITLE, BGColor: UIColor(hexFromString: "DD3D2B"), tintColor: .white)
+        self.setTitle(title: HOMEVC_TITLE, BGColor: UIColor(hexFromString: NAVIGATION_BAR_COLOR), tintColor: NAVIGATION_TINT_COLOR)
+        }
+    private func setBarButton() {
+        self.addLeftBarButton(images: [ #imageLiteral(resourceName: "menu")]) { (action) in
+             self.panel?.openLeft(animated: true)
+        }
+        self.addRightBarButton(images: [ #imageLiteral(resourceName: "search")]) { (index) in
         
+        }
     }
     private func registerCustomCell() {
         self.tblHome.register(SliderCell.self)
